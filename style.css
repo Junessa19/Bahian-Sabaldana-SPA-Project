@@ -1,0 +1,129 @@
+.image {
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+#home {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://www.facebook.com/messenger_media/?attachment_id=1313958982617499&message_id=mid.%24cAAAB_EmILdGSjZc_lWMXFHpu7tF_&thread_id=100069561062963');
+}
+
+header {
+    color: rgb(98, 238, 16);
+    background-color: #302e2e;
+    background-size: contain;
+    background-position: top;
+    padding: 1em;
+    text-align: center;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+header h1 {
+    margin: 10;
+    background-image: url('https://cdn.fbsbx.com/v/t59.2708-21/410357445_1313958989284165_8100415791693160603_n.gif?_nc_cat=104&ccb=1-7&_nc_sid=cf94fc&_nc_eui2=AeEPtsN3UayPIA7LgLQW14f7FUvAtywIFcMVS8C3LAgVwzVFhgTKT228BRqbMK8Szz4BZziNS8D4_2F85pMPfJZQ&_nc_ohc=mCC0Z6Pxmv8AX8yvutG&_nc_ht=cdn.fbsbx.com&oh=03_AdSXBre0cccFm1oxRxVHbBfAcvp_Jisff8TLoPJsn4eppw&oe=65799B3A');
+    background-size: cover;
+}
+
+nav {
+    background-color: #444;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.5s ease;
+    z-index: 1000;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+section {
+    padding: 2em;
+    scroll-margin-top: 50px;
+}
+
+#contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-button:hover {
+    background-color: #333;
+    background-image: url();
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.p1 {
+    line-height: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.p {
+    line-height: 12px;
+    font-style: oblique;
+}
+
+.p2 {
+    line-height: 12px;
+    font-style: oblique;
+    font-size: large;
+}
+
+.p3 {
+    line-height: 12px;
+    font-style: oblique;
+    font-size: large;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+}
