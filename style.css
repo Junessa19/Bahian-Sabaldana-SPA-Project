@@ -85,17 +85,12 @@ section {
     width: 100%;
 }
 
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+#contact a {
+    color: white;
 }
 
-.social-icons a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 20px;
+#contact a:hover {
+    color: rgb(98, 238, 16);
 }
 
 .p1 {
