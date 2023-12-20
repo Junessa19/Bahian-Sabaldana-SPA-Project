@@ -85,6 +85,14 @@ section {
     width: 100%;
 }
 
+#contact a {
+    color: white;
+}
+
+#contact a:hover {
+    color: rgb(98, 238, 16);
+}
+
 .p1 {
     line-height: 30px;
     font-style: oblique;
